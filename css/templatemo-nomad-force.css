@@ -43,7 +43,7 @@ html {
 }
 
 body {
-    background: var(--white-color);
+    background: #fff;
     font-family:;    
     position: relative;
 }
@@ -153,7 +153,7 @@ a:hover {
 }
 
 .overlay {
-  background: linear-gradient(to top, #000, transparent 90%);
+  background: linear-gradient(to top, #0c0c0cc4, transparent 90%);
   position: absolute;
   top: 0;
   right: 0;
@@ -309,14 +309,14 @@ a:hover {
 
 @media screen and (min-width: 992px) {
   .hero {
-    height: 100vh;
+    height: 50vh;
   }
 
   .custom-video,
   .news-detail-image {
     object-fit: cover;
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
   }
 
   .sticky-wrapper {
@@ -328,7 +328,7 @@ a:hover {
 .heroText {
   position: absolute;
   z-index: 9;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 85%;
@@ -499,6 +499,8 @@ a:hover {
   color: rgba(255, 255, 255, 0.65);
 }
 
+
+
 /*---------------------------------------
   SECTION               
 -----------------------------------------*/
@@ -528,7 +530,7 @@ a:hover {
 
 .copyright-text {
   color: rgb(199, 199, 199);
-  font-size: 12pt;
+  font-size: 11pt;
 }
 /*---------------------------------------
   RESPONSIVE STYLES               
@@ -713,66 +715,75 @@ a:hover {
 /*版面各間距*/
 
 .namecardtop{
-  width: 800px;
+  width: 700px;
   margin: auto;
-  margin-top: -10px;
+  margin-top: 15px;
 }
 
 .namecard{
-  margin: -5px;
+  margin: -30px;
 }
 
 .logotop{
-  width: 800px;
+  width: 700px;
   margin: auto;
 }
 
 .logo{
-  margin: -5px;
+  margin: -30px;
   margin-top: 55px;
 }
 
 .edmmenutop{
-  width: 800px;
+  width: 700px;
   margin: auto;
 }
 
 .edmmenu{
-  margin: -5px;
+  margin: -30px;
   margin-top: 55px;
 
 }
 
 .drawingtop{
-  width: 800px;
+  width: 700px;
   margin: auto;
 }
 
 .drawing{
-  margin: -5px;
+  margin: -30px;
   margin-top: 65px;
 }
 
 .cardtop{
-  width: 800px;
+  width: 700px;
   margin: auto;
 }
 
 .card{
-  margin: -5px;
+  margin: -30px;
   margin-top: 65px;
 }
 
 .phototop{
-  width: 800px;
+  width: 700px;
   margin: auto;
 }
 
 .photo{
-  margin: -5px;
+  margin: -30px;
   margin-top: 65px;
 }
 
+.donetop{
+  width: 700px;
+  margin: auto;
+}
+
+.done{
+  margin: -30px;
+  margin-top: 65px;
+}
 
 
 .carousel-inner.img{
@@ -783,8 +794,21 @@ a:hover {
   padding: -500px;
 } 
 
+.mine{
+  margin: 1px;
+}
+
 .minephoto{
-  margin-top: -8px;
+  width: 700px;
+  margin: auto;
+  margin-bottom: -20px;
+}
+
+.datedate{
+  margin: auto;
 }
 
 
+.yotext{
+  margin-top: -30px;
+}
